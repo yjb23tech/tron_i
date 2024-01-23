@@ -7,9 +7,9 @@ const App = () => {
             <h1>Sanity Check</h1>
             <Card 
                 album_song_cover_art = "track_9_song_art.png"
-                //props
-                //props
-                //props
+                album_title_name = "My Beautiful Dark Twisted Fantasy"
+                album_artist_name = "Kanye West"
+                album_genre_name = "Baroque Sophisticated Ignorance"
             />
         </div>
     )

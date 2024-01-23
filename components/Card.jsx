@@ -1,4 +1,6 @@
-
+import album_icon from "../public/images/album_icon.png"
+import artist_icon from "../public/images/artist_icon.png"
+import genre_icon from "../public/images/genre_icon.png"
 
 const Card = (props) => {
     return (
@@ -6,21 +8,21 @@ const Card = (props) => {
             <div>
                 <img src={`images/${props.album_song_cover_art}`} />
             </div>
-            {/* <div>
-                <h2></h2>
+            <div>
+                <h2>Placeholder</h2>
                 <div>
-                    <img />
-                    <p></p>
+                    <img src={album_icon} />
+                    <p>{props.album_title_name}</p>
                 </div>
                 <div>
-                    <img />
-                    <p></p>
+                    <img src={artist_icon} />
+                    <p>{props.album_artist_name}</p>
                 </div>
                 <div>
-                    <img />
-                    <p></p>
+                    <img src={genre_icon} />
+                    <p>{props.album_genre_name}</p>
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }
