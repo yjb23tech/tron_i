@@ -6,7 +6,7 @@ const App = () => {
         <div>
             <h1>Sanity Check</h1>
             <Card 
-                //props
+                album_song_cover_art = "track_9_song_art.png"
                 //props
                 //props
                 //props
